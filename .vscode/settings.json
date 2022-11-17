@@ -1,0 +1,8 @@
+{
+    "python.autoComplete.extraPaths": [
+        "./Python"
+    ],
+    "python.analysis.extraPaths": [
+        "C:\\Users\\almejia\\Desktop\\CursoPOOUber\\Python"
+    ]
+}
