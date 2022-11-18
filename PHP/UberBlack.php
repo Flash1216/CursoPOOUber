@@ -10,8 +10,6 @@ require_once('Car.php');
             $this->seatsMaterial = $seatMaterial;
         }
 
-
-
     }
 
 
