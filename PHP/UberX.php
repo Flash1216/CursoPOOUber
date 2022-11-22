@@ -1,16 +1,19 @@
-<?php 
-require_once('Car.php');
-
+<?php
+require_once('car.php');
 class UberX extends Car {
-    public $brand;
-    public $model;
+    public $brand = string;
+    public $model = string;
 
-    public function _construct($license, $driver, $brand, $model) {
-        parent::_construct($license, $driver);
-        this->license = $license;
-        this->driver = $driver;
+    public function __construct($license, $driver, $brand, $model){
+        parent::__construct($license,$driver);
+        $this->brand = $brand;
+        $this->model = $model;
     }
 
+    public function printDataCar() {
+        parent::printDataCar();
+        echo "Modelo: $this->model
+              Marca: $this->brand";
+    }
 }
-
 ?>
